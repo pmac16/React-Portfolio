@@ -328,9 +328,8 @@ footer {
   background: #eceff1;
   height: 100%;
   display: flex;
-  flex-flow: row wrap;
+
   padding: 0px;
-  justify-content: space-around;
-  align-content: flex-start;
+
   overflow: auto;
 }
