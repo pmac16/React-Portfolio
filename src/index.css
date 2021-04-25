@@ -1,3 +1,7 @@
+/* Fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Syne&display=swap");
+
 /* Main CSS */
 main {
   margin: 0 auto;
@@ -35,7 +39,7 @@ body {
   letter-spacing: 0.1em;
   background: var(--dark);
   color: var(--light);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Syne", sans-serif;
 }
 
 h1,
@@ -44,7 +48,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Major Mono Display", monospace;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
@@ -137,6 +141,7 @@ input {
   outline: none;
   border-radius: 3px;
   transition: box-shadow 0.2s;
+  font-family: "Syne", sans-serif;
 }
 
 input:focus {
@@ -161,6 +166,7 @@ textarea {
   height: 120px;
   border: 3px solid #cccccc;
   padding: 5px;
+  font-family: "Syne", sans-serif;
 }
 
 .container {
@@ -168,6 +174,7 @@ textarea {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
 }
 
 .flex-row {
@@ -238,7 +245,7 @@ textarea {
 }
 
 button {
-  background: var(--primary);
+  background: var(--secondary);
   border: 0;
   border-radius: 5px;
   color: #fff;
