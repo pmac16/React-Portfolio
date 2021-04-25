@@ -1,7 +1,13 @@
 import React, { useEffect } from "react";
 
 function Header(props) {
-  const { content = [], setCurrentContent, currentContent } = props;
+  const {
+    content = [],
+    setCurrentContent,
+    currentContent,
+    contactSelected,
+    setContactSelected,
+  } = props;
 
   useEffect(() => {
     document.title = currentContent;
@@ -16,13 +22,18 @@ function Header(props) {
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a data-testid="about" href="#about">
+            <a
+              data-testid="about"
+              href="#about"
+              onClick={() => setContactSelected(false)}
+            >
               About
             </a>
           </li>
-          <li className="mx-2">
-            <span>Contact</span>
+          <li className={`mx-2 ${contactSelected && "navActive"}`}>
+            <span onClick={() => setContactSelected(true)}>Contact</span>
           </li>
+
           {content.map((content) => (
             <li
               className={`mx-1 ${currentContent === content && "navActive"}`}
@@ -31,6 +42,7 @@ function Header(props) {
               <span
                 onClick={() => {
                   setCurrentContent(content);
+                  setContactSelected(false);
                 }}
               >
                 {content}

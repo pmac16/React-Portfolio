@@ -8,15 +8,16 @@ function About() {
       <img
         src={coverImage}
         className="my-2"
-        style={{ width: 100 }}
+        style={{ width: 200 }}
         alt="cover"
       />
-      <p>
-        {" "}
-        My name is Priya Macpherson. I am a full stack web developer based in
-        Oakland, CA. Previously I was an elementary school teacher and taught
-        5th grade.
-      </p>
+      <div className="my-2">
+        <p>
+          My name is Priya Macpherson. I am a full stack web developer based in
+          Oakland, CA. Previously I was an elementary school teacher and taught
+          5th grade.
+        </p>
+      </div>
     </section>
   );
 }
