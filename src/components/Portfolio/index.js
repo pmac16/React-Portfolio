@@ -2,6 +2,10 @@ import React from "react";
 import Project from "../Project";
 import recipe from "../../assets/project/Recipe.png";
 import quiz from "../../assets/project/quiz.png";
+import budget from "../../assets/project/budget.png";
+import weather from "../../assets/project/weather.png";
+import scheduler from "../../assets/project/scheduler.png";
+import portfolio from "../../assets/project/portfolio.png";
 
 function Portfolio() {
   const projectList = [
@@ -21,17 +25,31 @@ function Portfolio() {
     },
     {
       id: 3,
-      name: "Social Network",
-      image: "src/assets/project/Test.jpeg",
-      deployed: "https://github.com/pmac16/MongoDb-social-network",
-      github: "https://github.com/pmac16",
+      name: "Portfolio",
+      image: portfolio,
+      deployed: "https://pmac16.github.io/MacphersonPortfolio/",
+      github: "https://github.com/pmac16/MacphersonPortfolio",
     },
     {
       id: 4,
-      name: "Project 4",
-      image: "src/assets/project/Test.jpeg",
-      deployed: "https://github.com/pmac16/mvc-tech-blog",
-      github: "https://github.com/pmac16",
+      name: "Budget Tracker",
+      image: budget,
+      deployed: "https://dry-river-42304.herokuapp.com/",
+      github: "https://github.com/pmac16/PWA-budget-tracker",
+    },
+    {
+      id: 5,
+      name: "Weather Dashboard",
+      image: weather,
+      deployed: "https://pmac16.github.io/weather-dashboard/",
+      github: "https://github.com/pmac16/weather-dashboardweather",
+    },
+    {
+      id: 6,
+      name: "Hourly Scheduler",
+      image: scheduler,
+      deployed: "https://pmac16.github.io/day-scheduler/",
+      github: "https://github.com/pmac16/day-scheduler",
     },
   ];
 
