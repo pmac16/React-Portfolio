@@ -11,6 +11,12 @@ function About() {
         style={{ width: 100 }}
         alt="cover"
       />
+      <p>
+        {" "}
+        My name is Priya Macpherson. I am a full stack web developer based in
+        Oakland, CA. Previously I was an elementary school teacher and taught
+        5th grade.
+      </p>
     </section>
   );
 }
