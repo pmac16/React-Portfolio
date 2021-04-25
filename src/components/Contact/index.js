@@ -41,10 +41,12 @@ function Contact() {
   };
 
   return (
-    <section>
-      <h1 data-testid="h1tag">Contact me</h1>
+    <section className="my-5">
+      <h1 data-testid="h1tag" style={{ paddingBottom: 10 }}>
+        Contact Me
+      </h1>
       <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
+        <div style={{ paddingBottom: 5 }}>
           <label htmlFor="name">Name:</label>
           <input
             type="text"
@@ -53,8 +55,8 @@ function Contact() {
             onBlur={handleChange}
           />
         </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
+        <div style={{ paddingBottom: 5 }}>
+          <label htmlFor="email">Email Address:</label>
           <input
             type="email"
             name="email"
@@ -62,7 +64,7 @@ function Contact() {
             onBlur={handleChange}
           />
         </div>
-        <div>
+        <div style={{ paddingBottom: 5 }}>
           <label htmlFor="message">Message:</label>
           <textarea
             name="message"

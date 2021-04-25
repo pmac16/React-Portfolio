@@ -4,6 +4,17 @@ function Resume() {
   return (
     <section className="my-5">
       <h1 id="about">Resume</h1>
+      <p>
+        Please download my{" "}
+        <a
+          href="http://www.msnlabs.com/img/resume-sample.pdf"
+          target="_blank"
+          download
+        >
+          resume
+        </a>{" "}
+        to see more about my experience.
+      </p>
       <div className="my-2">
         <h2 className="mx-2">Skills</h2>
         <h3 className="mx-2">Front End</h3>
