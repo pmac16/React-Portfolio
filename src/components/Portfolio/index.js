@@ -1,28 +1,29 @@
 import React from "react";
 import Project from "../Project";
+import recipe from "../../assets/project/Recipe.png";
+import quiz from "../../assets/project/quiz.png";
 
 function Portfolio() {
   const projectList = [
     {
       id: 1,
-      name: "Project 1",
-      image:
-        "https://i.pinimg.com/236x/65/25/a0/6525a08f1df98a2e3a545fe2ace4be47.jpg",
-      deployed: "https://github.com/pmac16/mvc-tech-blog",
-      github: "https://github.com/pmac16",
+      name: "Recipe Finder",
+      image: recipe,
+      deployed: "https://pmac16.github.io/recipe-finder/",
+      github: "https://github.com/pmac16/recipe-finder",
     },
     {
       id: 2,
-      name: "Project 2",
-      image: "src/assets/project/Test.jpeg",
-      deployed: "https://github.com/pmac16/mvc-tech-blog",
-      github: "https://github.com/pmac16",
+      name: "Quiz Challenge",
+      image: quiz,
+      deployed: "https://pmac16.github.io/javascript-quiz-challenge/",
+      github: "https://github.com/pmac16/javascript-quiz-challenge",
     },
     {
       id: 3,
-      name: "Project 3",
+      name: "Social Network",
       image: "src/assets/project/Test.jpeg",
-      deployed: "https://github.com/pmac16/mvc-tech-blog",
+      deployed: "https://github.com/pmac16/MongoDb-social-network",
       github: "https://github.com/pmac16",
     },
     {
@@ -35,7 +36,7 @@ function Portfolio() {
   ];
 
   return (
-    <section id="project">
+    <section id="project" className="wrapper">
       {projectList.map((project) => {
         return (
           <Project

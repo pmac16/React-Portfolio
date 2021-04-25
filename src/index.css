@@ -274,10 +274,10 @@ a {
   background: #eceff1;
   height: 100%;
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
   padding: 20px;
   justify-content: space-around;
-  align-content: flex-start;
+
   overflow: auto;
 }
 
@@ -296,10 +296,11 @@ a {
   height: 60%;
   overflow: hidden;
   text-align: center;
-  background: #6caddc;
+  background: var(--tertiary);
 }
 .card > .img-container > img {
-  width: 60%;
+  width: 90%;
+  padding-top: 10px;
 }
 
 .card > .content {
