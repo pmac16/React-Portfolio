@@ -237,39 +237,6 @@ textarea {
   text-align: center;
 }
 
-.img-thumbnail {
-  width: auto;
-  height: 300px;
-  margin-bottom: 50px;
-  cursor: pointer;
-}
-
-.modalBackdrop {
-  background: rgba(0, 0, 0, 0.65);
-  bottom: 0;
-  left: 0;
-  overflow: auto;
-  position: fixed;
-  right: 0;
-  top: 0;
-  z-index: 1;
-}
-
-.modalContainer {
-  background: var(--darker);
-  border-radius: 5px;
-  max-width: 100%;
-  margin: 50px auto;
-  padding: 15px;
-  width: 960px;
-}
-
-.modalTitle {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 25px;
-}
-
 button {
   background: var(--primary);
   border: 0;
@@ -343,21 +310,20 @@ a {
   color: black;
 }
 
-.card > .remove {
-  color: #ff1744;
-  font-size: 48px;
-  position: absolute;
-  top: -20px;
-  right: 5px;
-  cursor: pointer;
-}
-
-.card > .remove:hover {
-  color: #d50000;
-}
-
 .title {
   width: 100%;
   text-align: center;
   margin-bottom: 50px;
+}
+
+footer {
+  padding-top: 50px;
+  background: #eceff1;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0px;
+  justify-content: space-around;
+  align-content: flex-start;
+  overflow: auto;
 }
