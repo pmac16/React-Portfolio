@@ -6,7 +6,7 @@ import budget from "../../assets/project/budget.png";
 import weather from "../../assets/project/weather.png";
 import scheduler from "../../assets/project/scheduler.png";
 import portfolio from "../../assets/project/portfolio.png";
-
+import Kathryn_Hansen from "../../assets/project/Kathryn_Hansen.png";
 function Portfolio() {
   const projectList = [
     {
@@ -50,6 +50,13 @@ function Portfolio() {
       image: scheduler,
       deployed: "https://pmac16.github.io/day-scheduler/",
       github: "https://github.com/pmac16/day-scheduler",
+    },
+    {
+      id: 7,
+      name: "Kathryn Hansen Art Website",
+      image: Kathryn_Hansen,
+      deployed: "https://kathryn-hansen.herokuapp.com/",
+      github: "https://github.com/Emilykidd3/kathryn-hansen",
     },
   ];
 
