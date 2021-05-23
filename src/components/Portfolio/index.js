@@ -24,13 +24,6 @@ function Portfolio() {
       github: "https://github.com/pmac16/javascript-quiz-challenge",
     },
     {
-      id: 3,
-      name: "Portfolio",
-      image: portfolio,
-      deployed: "https://pmac16.github.io/MacphersonPortfolio/",
-      github: "https://github.com/pmac16/MacphersonPortfolio",
-    },
-    {
       id: 4,
       name: "Budget Tracker",
       image: budget,
